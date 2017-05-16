@@ -1,0 +1,19 @@
+[alias]
+	ca = commit --amend
+	cb = checkout -b
+  	ci = commit
+  	co = checkout
+	st = status
+  	br = branch
+  	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	logs = log --stat -p
+	logg = log --oneline --decorate --graph --all
+[user]
+	name = Anna Bladzich
+	email = ann4b33@gmail.com
+
+[push]
+	default = current
+[core]
+	excludesfile = ~/.gitignore_global
+
